@@ -3,7 +3,8 @@
 namespace JoelButcher\GoogleAds;
 
 use Google\Ads\GoogleAds\Lib\V10\GoogleAdsClient as V10GoogleAdsClient;
-use Google\Ads\GoogleAds\Lib\V11\GoogleAdsClient as V11GoogleAdsClient;
+//temporary patch
+use Google\Ads\GoogleAds\Lib\V13\GoogleAdsClient as V11GoogleAdsClient;
 use JoelButcher\GoogleAds\Adapters\AdapterFactory;
 use JoelButcher\GoogleAds\Adapters\AdapterInterface;
 use JoelButcher\GoogleAds\Concerns\ValidatesConfig;
