@@ -2,7 +2,8 @@
 
 namespace JoelButcher\GoogleAds\Adapters\V11;
 
-use Google\Ads\GoogleAds\Lib\V11\GoogleAdsClientBuilder;
+//temporary patch
+use Google\Ads\GoogleAds\Lib\V13\GoogleAdsClientBuilder;
 use JoelButcher\GoogleAds\Adapters\AdapterAbstract;
 
 class Adapter extends AdapterAbstract
